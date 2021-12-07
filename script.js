@@ -21,7 +21,7 @@ function scrollPara(event) {
 const target = document.querySelectorAll("[data-anima]");
 
 function animeScroll() {
-  const topo = window.pageYOffset - 1000;
+  const topo = window.pageYOffset - 800;
 
   target.forEach(function (elemento) {
     console.log(elemento.offsetTop);
@@ -37,7 +37,7 @@ window.addEventListener("scroll", function () {
 
 // maquina de escrever
 
-const textoModificado = document.querySelector(".experiencia-texto");
+const textoModificado = document.querySelector("h1");
 
 const novoTexto = textoModificado.textContent.split("");
 
@@ -45,7 +45,7 @@ novoTexto.forEach((letra, index) => {
   textoModificado.innerHTML = " ";
   setTimeout(function () {
     textoModificado.innerHTML += letra;
-  }, 30 * index);
+  }, 100 * index);
 });
 
 // MENU MOBILE
