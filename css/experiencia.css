@@ -71,7 +71,7 @@
 .empresas-habilidades {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   align-content: start;
 }
 .empresas-habilidades li {
@@ -80,6 +80,9 @@
   border-radius: 4px;
   background: #ffffff;
   padding: 5px 10px;
+}
+.empresas-habilidades li:hover {
+  background-color: #67dd0a;
 }
 
 @media (max-width: 800px) {
