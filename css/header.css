@@ -22,6 +22,10 @@
   padding: 10px 20px;
   display: block;
 }
+.header-menu a:hover {
+  background: #c7c7c7;
+  border-radius: 4px;
+}
 
 .botao-menu {
   display: none;
